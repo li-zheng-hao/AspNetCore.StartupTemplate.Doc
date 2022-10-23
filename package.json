@@ -1,0 +1,19 @@
+{
+  "name": "AspNetCore.StartupTemplate.Doc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/li-zheng-hao/AspNetCore.StartupTemplate.Doc",
+  "author": "LiZhengHao <1263212577@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "markdown-it": "^13.0.1",
+    "vitepress": "^1.0.0-alpha.22",
+    "vitepress-plugin-search": "^1.0.4-alpha.11",
+    "vue": "^3.2.41"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  }
+}
