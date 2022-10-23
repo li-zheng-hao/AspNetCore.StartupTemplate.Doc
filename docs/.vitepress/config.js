@@ -1,4 +1,5 @@
 export default {
+    base: '/AspNetCore.StartupTemplate/docs',
     title: 'AspNetCore.StartupTemplate',
     description: 'Asp.Net Core Webapi项目快速启动模板',
     themeConfig: {
